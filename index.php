@@ -45,5 +45,4 @@ if (!empty($argv[1])) {
     file_put_contents("{$pagesTitle}.json", json_encode($productsData, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
     echo "\n========================================\n";
     echo 'Completed processing ' . $products_cnt . ' products.';
-    echo "\nData saved to {$pagesTitle}.json\n";
-}
+   }
